@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+   <!--  <script src="scripts.js"></script> -->
+   <link rel="stylesheet" href="css/jquery.bxslider.css">
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div>
+                <a href="#">主站首页</a>
+                <a href="#">院长信箱</a>
+            </div>
+        </div>
+        <div class="header_main">
+            <div class="icon"><img src="images/db_03.png" alt=""></div>
+            <div>
+                <p><b>东北林业大学</b>信息与计算机学院</p>
+                <p>NORTHEAST FORESTRY UNIVERSITY INFORMATION AND ENGINEERING INSTITUTE</p>                
+            </div>
+            <div class="search">
+                <input onblur="this.setAttribute('placeholder','输入关键字搜索')" onfocus="this.setAttribute('placeholder','')" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输入关键字搜索">
+                <button class="button_search"><img src="images/indexda_03.png" alt=""><span>搜索</span></button>
+            </div>
+        </div>
+    </header>      
+
+    <main>
+        <div class="navbar">
+            <span id="trigger" onmouseover="kkmouseover('#a1')"  onmouseout="kkmouseout('#a1')">
+                <a href="#" id="nav_trigger">网站首页</a>
+                <div class="navbar_float" id="a1" ><ul>
+                    <li>学院新闻</li>
+                    <li>通知公告</li>
+                    <li>学院风采</li>
+                    <li>友情链接</li>
+                    <li>常用系统</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a2')"  onmouseout="kkmouseout('#a2')">
+                <a href="#" id="nav_trigger">学院概况</a>
+                <div class="navbar_float" id="a2" ><ul>
+                    <li>学院简介</li>
+                    <li>学院领导</li>
+                    <li>历任院领导</li>
+                    <li>相关委员会</li>
+                    <li>机构设置</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a3')"  onmouseout="kkmouseout('#a3')">
+                <a href="#" id="nav_trigger">系(专业)部</a>
+                <div class="navbar_float" id="a3" ><ul>
+                    <li>计算机科学与技术</li>
+                    <li>软件工程</li>
+                    <li>信息管理与信息系统</li>
+                    <li>计算机基础教育部</li>
+                    <li>实验中心</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a4')"  onmouseout="kkmouseout('#a4')">
+                <a href="#" id="nav_trigger">师资队伍</a>
+                <div class="navbar_float" id="a4" ><ul>
+                    <li>计算机科学与技术</li>
+                    <li>软件工程</li>
+                    <li>信息管理与信息系统</li>
+                    <li>计算机基础教育部</li>
+                    <li>实验中心</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a5')"  onmouseout="kkmouseout('#a5')">
+                <a href="#" id="nav_trigger">学科建设</a>
+                <div class="navbar_float" id="a5" ><ul>
+                    <li>博士学位授权点</li>
+                    <li>全日制硕士学位点</li>
+                    <li>非全日制(在职)专业学位授权点</li>
+                    <li>博士生导师</li>
+                    <li>硕士生导师</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a6')"  onmouseout="kkmouseout('#a6')">
+                <a href="#" id="nav_trigger">学科研究</a>
+                <div class="navbar_float" id="a6" ><ul>
+                    <li>科研项目</li>
+                    <li>成果及奖励</li>
+                    <li>研究团队及创新平台</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a7')"  onmouseout="kkmouseout('#a7')">
+                <a href="#" id="nav_trigger">本科教育</a>
+                <div class="navbar_float" id="a7" ><ul>
+                    <li>招生简章</li>
+                    <li>培养方案</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a8')"  onmouseout="kkmouseout('#a8')">
+                <a href="#" id="nav_trigger">研究生教育</a>
+                <div class="navbar_float" id="a8" ><ul>
+                    <li>招生简章</li>
+                    <li>培养方案</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a9')"  onmouseout="kkmouseout('#a9')">
+                <a href="#" id="nav_trigger">党团公会</a>
+                <div class="navbar_float" id="a9" ><ul>
+                    <li>党委</li>
+                    <li>学委</li>
+                    <li>公会</li>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a10')"  onmouseout="kkmouseout('#a10')">
+                <a href="#" id="nav_trigger">就业指导</a>
+                <div class="navbar_float" id="a10" ><ul>
+                </ul></div>
+             </span>
+            <span id="trigger" onmouseover="kkmouseover('#a10')"  onmouseout="kkmouseout('#a10')">
+                <a href="#" id="nav_trigger">文件下载</a>
+                <div class="navbar_float" id="a10" ><ul>
+                </ul></div>
+             </span>
+        </div>
+        <div class="pic">
+            <img src="images/index_build_03.png" class="build_image">
+            <img src="images/indextext_03.png" alt="" class="words">
+        </div>
+        <div class="arti">
+            <div class="notice">
+               <div class="notice-text"><img src="images/speaker_03.png"><span>&nbsp;&nbsp;通知公告:</span>
+                <a href="#">计算机科学与技术学院举行学术报告[2016.04.10]</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="left">
+                    <div class="news">
+                        <div class="carol">
+                            <ul class="bxslider">
+                                <li><img src="images/index_03.png" title="all leaves fallen"></li>
+                                <li><img src="images/index_05.png" title="它在就不在这了"></li>
+                                <li><img src="" alt=""></li>
+                                <li><img src="" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="new_dis">
+                            <h3><span>学院网站</span>&nbsp;&nbsp;COLLEGE NEWS</h3>
+                            <ul>
+                                <li>一只柯基经过渴慕身边 <span>2015.1.1</span></li>
+                                <li>这的确是个爱情故事 <span>2015.1.1</span></li>
+                                <li>一个鲤鱼出生在山泉之中 <span>2015.1.1</span></li>
+                                <li>正在山谷中闲逛的我遇到了斯芬克斯 <span>2015.1.1</span></li>
+                                <li>他早就不认得那只鸟了 <span>2015.1.1</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="icon_one">
+                            <div class="con">
+                                <img src="images/index_05.png" alt="">
+                                <div class="intro">
+                                    <p><a href="">本科教学</a></p>
+                                    <p><a href="">工作量</a></p>
+                                    <p><a href="">管理系统</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon_one">
+                            <div class="con">
+                                <img src="images/index_07.png" alt="">
+                                <div class="intro">
+                                    <p><a href="">本科教学</a></p>
+                                    <p><a href="">工作量</a></p>
+                                    <p><a href="">管理系统</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon_one">
+                            <div class="con">
+                                <img src="images/index_09.png" alt="">
+                                <div class="intro">
+                                    <p><a href="">本科教学</a></p>
+                                    <p><a href="">工作量</a></p>
+                                    <p><a href="">管理系统</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon_one">
+                            <div class="con">
+                                <img src="images/index_11.png" alt="">
+                                <div class="intro">
+                                    <p><a href="">本科教学</a></p>
+                                    <p><a href="">工作量</a></p>
+                                    <p><a href="">管理系统</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon_one">
+                            <div class="con">
+                                <img src="images/index_13.png" alt="">
+                                <div class="intro">
+                                    <p><a href="">本科教学</a></p>
+                                    <p><a href="">工作量</a></p>
+                                    <p><a href="">管理系统</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="news">
+                        <div class="college_style">
+                            <h3><span>学院风采</span>&nbsp;&nbsp;COLLEGE&nbsp;STYLE</h3>
+                        </div>
+                        <div class="carol_2">
+                            <ul class="slider6">
+                                <li><img src="images/index_03.png" alt=""></li>
+                                <li><img src="images/index_03.png" alt=""></li>
+                                <li><img src="images/index_06.png" alt=""></li>
+                                <li><img src="images/index_03.png" alt=""></li>
+                                <li><img src="images/index_03.png" alt=""></li>
+                                <li><img src="" alt="images/index_03.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="friendship_link">
+                            <h4><span>友情链接</span>&nbsp;&nbsp;FRIENDSHIP&nbsp;LINK</h4>
+                            <p>
+                                <a href="">教育部</a>
+                                <a href="">中国教育和科研计算机网</a>
+                                <a href="">数字东林</a>
+                                <a href="">中国计算机学会</a>
+                                <a href="">黑龙江省工业和信息化委员会</a>
+                                <a href="">黑龙江省科技厅</a>
+                                <a href="">东北农业大学</a>
+                                <a href="">哈尔滨工业大学</a>
+                                <a href="">哈尔滨工程大学</a>
+                                <a href="">更多>></a>
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </main>
+    <footer>
+        <p>版权所有&nbsp;&nbsp;2011&nbsp;&nbsp;东北林业大学信息与计算机工程学院&nbsp;&nbsp;黑ICP备0000000号&nbsp;&nbsp;您是第1234位访客</p>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+       new gnMenu(document.getElementById('navbar_float'));  
+    </script>
+    <script>
+        function kkmouseover(el) {
+            document.querySelector(el).setAttribute('class', 'gn-open navbar_float');
+               
+        }
+        function kkmouseout(el) {
+            document.querySelector(el).setAttribute('class', 'navbar_float');    
+        }
+    </script>
+    <script>
+$('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        auto: true,
+        autoControl: true
+        })
+    </script>
+    <script>
+        $('.slider6').bxSlider({
+            auto:true,
+            autoControl: true,
+            slideWidth: 170,
+            minSlides: 2,
+            maxSlides: 3,
+            slideMargin: 10
+            });
+    </script>
+</body>
+</html>
